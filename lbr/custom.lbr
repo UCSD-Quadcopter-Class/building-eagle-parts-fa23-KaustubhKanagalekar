@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" blackcolor="0xccc90d0c" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xccc90000" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes" locked="no"/>
 <layer number="2" name="Route2" blackcolor="0xccffe74c" whitecolor="0xccffe74c" coloredcolor="0xccffe74c" blackhighlight="0xccffd900" whitehighlight="0xccffd900" coloredhighlight="0xccffd900" fill="1" visible="no" active="yes" locked="no"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="NamesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
 <layer number="27" name="ValuesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
 <layer number="28" name="ValuesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
-<layer number="29" name="SolderMaskTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="3" visible="no" active="yes" locked="no"/>
+<layer number="29" name="SolderMaskTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="3" visible="yes" active="yes" locked="no"/>
 <layer number="30" name="SolderMaskBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="6" visible="no" active="yes" locked="no"/>
 <layer number="31" name="StencilTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes" locked="no"/>
 <layer number="32" name="StencilBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes" locked="no"/>
@@ -135,20 +135,20 @@
 <rectangle x1="0.6705" y1="-1.346" x2="1.2295" y2="-0.622" layer="31"/>
 </package>
 <package name="LSM6DS0" use_placeholder="yes">
-<smd name="6" x="0" y="-0.9125" dx="0.45" dy="0.675" layer="1"/>
-<smd name="5" x="-0.5" y="-0.9125" dx="0.45" dy="0.675" layer="1"/>
-<smd name="7" x="0.5" y="-0.9125" dx="0.45" dy="0.675" layer="1"/>
-<smd name="8" x="1.1625" y="-0.75" dx="0.675" dy="0.45" layer="1"/>
-<smd name="9" x="1.1625" y="-0.25" dx="0.675" dy="0.45" layer="1"/>
-<smd name="10" x="1.1625" y="0.25" dx="0.675" dy="0.45" layer="1"/>
-<smd name="11" x="1.1625" y="0.75" dx="0.675" dy="0.45" layer="1"/>
-<smd name="1" x="-1.1625" y="0.75" dx="0.675" dy="0.45" layer="1"/>
-<smd name="2" x="-1.1625" y="0.25" dx="0.675" dy="0.45" layer="1"/>
-<smd name="3" x="-1.1625" y="-0.25" dx="0.675" dy="0.45" layer="1"/>
-<smd name="4" x="-1.1625" y="-0.75" dx="0.675" dy="0.45" layer="1"/>
-<smd name="14" x="-0.5" y="0.9125" dx="0.45" dy="0.675" layer="1"/>
-<smd name="13" x="0" y="0.9125" dx="0.45" dy="0.675" layer="1"/>
-<smd name="12" x="0.5" y="0.9125" dx="0.45" dy="0.675" layer="1"/>
+<smd name="6" x="0" y="-0.95" dx="0.35" dy="0.575" layer="1"/>
+<smd name="5" x="-0.5" y="-0.95" dx="0.35" dy="0.575" layer="1"/>
+<smd name="7" x="0.5" y="-0.95" dx="0.35" dy="0.575" layer="1"/>
+<smd name="8" x="1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1"/>
+<smd name="9" x="1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1"/>
+<smd name="10" x="1.1625" y="0.25" dx="0.575" dy="0.35" layer="1"/>
+<smd name="11" x="1.1625" y="0.75" dx="0.575" dy="0.35" layer="1"/>
+<smd name="1" x="-1.1625" y="0.75" dx="0.575" dy="0.35" layer="1"/>
+<smd name="2" x="-1.1625" y="0.25" dx="0.575" dy="0.35" layer="1"/>
+<smd name="3" x="-1.1625" y="-0.25" dx="0.575" dy="0.35" layer="1"/>
+<smd name="4" x="-1.1625" y="-0.75" dx="0.575" dy="0.35" layer="1"/>
+<smd name="14" x="-0.5" y="0.95" dx="0.35" dy="0.575" layer="1"/>
+<smd name="13" x="0" y="0.95" dx="0.35" dy="0.575" layer="1"/>
+<smd name="12" x="0.5" y="0.95" dx="0.35" dy="0.575" layer="1"/>
 <wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.05" layer="21"/>
 <wire x1="1.5" y1="-1.25" x2="1.5" y2="1.25" width="0.05" layer="21"/>
 <wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.05" layer="21"/>
@@ -160,7 +160,7 @@
 <wire x1="2.4" y1="-1.9" x2="2.4" y2="1.9" width="0.05" layer="39"/>
 <wire x1="2.4" y1="1.9" x2="-2.4" y2="1.9" width="0.05" layer="39"/>
 <wire x1="-2.4" y1="1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
-<text x="-2.5" y="1.5" size="0.9" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.5" y="2" size="0.9" layer="25" font="vector">&gt;NAME</text>
 <circle x="-1.7272" y="1.2065" radius="0.03591875" width="0.127" layer="21"/>
 </package>
 </packages>
